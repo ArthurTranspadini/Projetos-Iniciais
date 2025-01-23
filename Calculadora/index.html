@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <audio id="clickSound" src="som do bip da calculadora.mp3"></audio>
+    <div class="calculator">
+        <strong><div id="title">Calculadora</div></strong>
+        <div class="calc">
+            <input placeholder="0" type="text" id="inNumber">
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button id="btnIClear">C</button>
+                <button id="btnIClear1">CE</button>
+                <button value="%" id="btnO%">%</button>
+                <button value="/" id="btnO/">÷</button>
+            </div>
+            <div class="row">
+                <button value="7" id="btnN7">7</button>
+                <button value="8" id="btnN8">8</button>
+                <button value="9" id="btnN9">9</button>
+                <button value="*" id="btnO*">×</button>
+            </div>
+            <div class="row">
+                <button value="4" id="btnN4">4</button>
+                <button value="5" id="btnN5">5</button>
+                <button value="6" id="btnN6">6</button>
+                <button value="-" id="btnO-">-</button>
+            </div>
+            <div class="row">
+                <button value="1" id="btnN1">1</button>
+                <button value="2" id="btnN2">2</button>
+                <button value="3" id="btnN3">3</button>
+                <button value="+" id="btnO+">+</button>
+            </div>
+            <div class="row">
+                <button value="0" id="btnN0">0</button>
+                <button value="." id="btnI.">.</button>
+                <button id="btnO=">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="src/js/script.js"></script>

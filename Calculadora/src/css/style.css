@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f0f0f;
+}
+
+.calculator {
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 320px;
+}
+
+.calc {
+    padding: 10px;
+    border-bottom: 1px solid #0c0c0c;
+}
+
+.calc input {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+button {
+    flex: 1;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    border: none;
+    margin: 0;
+    background-color: #0a0a0a;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    color: white;
+}
+
+button:hover {
+    background-color: #1a1a1a;
+}
+
+button:active {
+    background-color: #9b9b9b;
+}
+
+button#btnN0 {
+    flex: 2;
+}
+
+button[id^="btnO"] {
+    background-color: #ff9800;
+    color: white;
+}
+
+button[id^="btnO"]:hover {
+    background-color: #e68900;
+}
+
+button[id^="btnIClear"] {
+    background-color: #f44336;
+    color: white;
+}
+
+button[id^="btnIClear"]:hover {
+    background-color: #d32f2f;
+}
+
+input{
+    background-color: #000;
+    color: #ddd;
+}
+
+#title{
+    color: white;
+    margin: 10px 0 0 10px;
+    transition: 0.5s;
+}
+
+#title:hover{
+    color: rgb(182, 182, 182);
+}
